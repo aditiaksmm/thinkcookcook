@@ -36,7 +36,7 @@
                 <form class="login100-form validate-form" method="POST" action="{{ route ('login') }}">
                     {{ csrf_field ()}}
                     <span class="login100-form-title p-b-34">
-                         Login ADMIN THINKCOOKCOOK
+                         Login ADMIN Thinkcookook
                      </span>
                     
                     <div class="wrap-input100 rs1-wrap-input100 validate-input m-b-20" data-validate="Type user name">
@@ -67,7 +67,7 @@
                     </div>
                 </form>
 
-                <div class="login100-more" style="background-image: url('images/ss.jpg');"></div>
+                <div class="login100-more" style="background-image: url('images/aa.jpg');"></div>
             </div>
         </div>
     </div>

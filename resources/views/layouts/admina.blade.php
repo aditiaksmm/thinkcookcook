@@ -53,14 +53,21 @@
       <!-- logo for regular state and mobile devices -->
       <span class="logo-lg"><b>Thinkcookcook</b>Cloth</span>
     </a>
+
     <!-- Header Navbar: style can be found in header.less -->
+
+
+
     <nav class="navbar navbar-static-top">
+
       <!-- Sidebar toggle button-->
+
       <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
         <span class="sr-only">Toggle navigation</span>
       </a>
 
   </header>
+
   <!-- Left side column. contains the logo and sidebar -->
   <aside class="main-sidebar">
     <!-- sidebar: style can be found in sidebar.less -->
@@ -75,6 +82,8 @@
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
       </div>
+
+
       <!-- search form -->
      
       <!-- /.search form -->
@@ -98,6 +107,7 @@
        <li><a href="{{ url('admin/Store/1/edit') }}"><i class="fa fa-circle-o"></i><span>Ubah Halaman Detail</span></a></li>
        <li><a href="{{ url('admin/Lainnya/1/edit') }}"><i class="fa fa-circle-o"></i><span>Ubah Halaman Lainnya</span></a></li>
           </ul>
+
         </li>
         <li class="treeview">
           <a href="#">
@@ -113,6 +123,33 @@
           </ul>
         </li>
        
+
+      
+            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+               
+                
+            </a>
+                
+              
+              
+
+                <li>
+                                        <a href="{{ route('logout') }}"
+                                            onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                                     <i class="fa fa-cog"></i>
+                                            Logout
+                                        </a> 
+
+
+                                       
+
+                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                            {{ csrf_field() }}
+                                        </form>
+                                    </li>
+            </ul>
+        </li>
       </ul>
     </section>
     <!-- /.sidebar -->
