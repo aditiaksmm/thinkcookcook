@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <title>Pans Company</title>
+    <title>Thinkcookcook</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{asset ('user/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -50,8 +50,7 @@
               <li class="nav-item px-lg-4">
                 <a class="nav-link text-uppercase text-expanded" href="/store"><h2>Detail</h2></a>
               </li>
-              <li class="nav-item px-lg-4">
-                <a class="nav-link text-uppercase text-expanded" href="/artikells"><h2>Tips And Trict</h2></a>
+             
               </li>
             </h1>
             </ul>
@@ -88,7 +87,7 @@ s0.parentNode.insertBefore(s1,s0);
     <br>
         <footer class="footer text-faded text-center py-5">
       <div class="container">
-       <h4><p class="m-0 small">Copyright &copy; PansCompany.<i>cloth</i> 2018</p></h4>
+       <h4><p class="m-0 small">Copyright &copy; Thinkcookcook.<i>cloth</i> 2018</p></h4>
       </div>
     </footer>
 

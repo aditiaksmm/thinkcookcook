@@ -87,7 +87,7 @@
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.430988409529!2d107.58195651477314!3d-6.958378994972893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e8cfbb8edbd5%3A0x423cffb30595d6a4!2sPans+Company!5e0!3m2!1sid!2sid!4v1516419748415" width="1750" height="600" frameborder="0" style="border:0" allowfullscreen></iframe></center>
 </section>
 
-    <section class="page-section about-heading">
+    <!-- <section class="page-section about-heading">
       <div class="container">
         <center><img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="/img/img1/{{$data->cover}}" alt=""></center>
         <div class="about-heading-content">
@@ -103,7 +103,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
  
 
     </section>

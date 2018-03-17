@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Pans Company</title>
+  <title>Thinkcookcook</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -49,9 +49,9 @@
     <!-- Logo -->
     <a href="index2.html" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>P</b>C</span>
+      <span class="logo-mini"><b>T</b>CC</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Pans</b>Cloth</span>
+      <span class="logo-lg"><b>Thinkcookcook</b>Cloth</span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
@@ -71,7 +71,7 @@
           <img src="{{asset ('icon.png') }}" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>{{ Auth::user()->name }}</p>
+          <p>Admin Thinkcookcook</p>
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
       </div>
@@ -109,7 +109,7 @@
           <ul class="treeview-menu">
             <li><a href="{{ route('Product.index') }}"><i class="fa fa-circle-o"></i>Produk</a></li>
             <li><a href="{{ route('kategori.index') }}"><i class="fa fa-circle-o"></i>Kategori Produk</a></li>
-             <li><a href="{{ route('artikel.index') }}"><i class="fa fa-circle-o"></i>Tips & Tricks</a></li>
+            
           </ul>
         </li>
        
@@ -141,7 +141,7 @@
 <br>
       <b>Version</b> 1.0
 
-    <strong>Copyright &copy; 2018 PansCompany</a>.</strong> All rights
+    <strong>Copyright &copy; 2018 Thinkcookcook</a>.</strong> All rights
     reserved.
     <br>
     <br>    
