@@ -84,7 +84,7 @@
       </div>
     </section>
    <section class="page-section cta"><center>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.430988409529!2d107.58195651477314!3d-6.958378994972893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e8cfbb8edbd5%3A0x423cffb30595d6a4!2sPans+Company!5e0!3m2!1sid!2sid!4v1516419748415" width="1750" height="600" frameborder="0" style="border:0" allowfullscreen></iframe></center>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.427597426667!2d106.80358831471175!3d-6.2071936625312825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f6baac4b0f6b%3A0xf7ceedfeb3d60e70!2sThinkcookcook!5e0!3m2!1sid!2sid!4v1521341519550" width="1750" height="600" frameborder="0" style="border:0" allowfullscreen></iframe></center>
 </section>
 
     <!-- <section class="page-section about-heading">

@@ -6,7 +6,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">Halo</div>
                         <div class="panel-body">
-                            Selamat datang di Honda Pasteur
+                            Selamat datang
                         </div>
                 </div>
             </div>
