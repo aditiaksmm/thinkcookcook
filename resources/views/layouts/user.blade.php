@@ -24,7 +24,7 @@
 
   </head>
 
-  <form action="{{ url()->current() }}">
+ <!--  <form action="{{ url()->current() }}">
     <div class="col-md-2">
         <input type="text" name="/model" class="form-control" placeholder="Search categories">
     </div>
@@ -33,7 +33,7 @@
             Search
         </button>
     </div>
-</form>
+</form> -->
 
  
 
