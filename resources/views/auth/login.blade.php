@@ -32,7 +32,7 @@
     <div class="limiter">
         <div class="container-login100">
             <div class="wrap-login100">
-
+                <center>
                 <form class="login100-form validate-form" method="POST" action="{{ route ('login') }}">
                     {{ csrf_field ()}}
                     <span class="login100-form-title p-b-34">
@@ -50,6 +50,7 @@
                     
                     <div class="container-login100-form-btn">
                         <button class="login100-form-btn">
+                            <i class="fa fa-sign-in"></i>
                             Masuk
                         </button>
                     </div>
@@ -67,7 +68,8 @@
                     </div>
                 </form>
 
-                <div class="login100-more" style="background-image: url('images/jane.jpg');"></div>
+                <!-- <div class="login100-more" style="background-image: url('images/jane.jpg');"></div> -->
+            </center>
             </div>
         </div>
     </div>

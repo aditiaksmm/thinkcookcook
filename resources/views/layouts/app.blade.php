@@ -10,7 +10,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Pans Company</title>
+    <title>Thinkcookcook</title>
 
     <!-- Styles -->
     <link href="{{asset('/css/jquery.dataTables.css')}}" rel="stylesheet">
@@ -61,7 +61,7 @@
                             @endif
                             @role('admin')
 
-                            <li><a href="{{ route('Product.index') }}">Products</a></li>
+                            <li><a href="{{ route('Product.index') }}">Produk</a></li>
                                <li><a href="{{ route('kategori.index') }}">Kategori</a></li>
                             <li><a href="{{ url('admin/Home/1/edit') }}">Ubah Halaman Home</a></li>
                             <li><a href="{{ url('admin/About/1/edit') }}">Ubah Halaman About</a></li>

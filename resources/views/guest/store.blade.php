@@ -1,13 +1,13 @@
 <h1 class="site-heading text-center text-white d-none d-lg-block">
       <span class="site-heading-upper text-primary mb-3"></span>
-      <span class="site-heading-lower">Detail</span>
+      <span class="site-heading-lower">Details</span>
     </h1>
 
   <link rel="shortcut icon" href="{{asset('icon.png')}}">  
 @foreach ($Lainnya as $data1) 
 @extends('layouts.user')
 @section('content')
- <body style="background:linear-gradient(rgba(47,23,15,.65),rgba(47,23,15,.65)),url(../img/img1/{{$data1->cover}});
+ <body style="background:linear-gradient(rgba(19,14,12,0.32),rgba(19,14,12,0.32)),url(../img/img1/{{$data1->cover}});
               background-repeat: no-repeat;
               background-size: cover; 
               background-attachment: fixed;">
@@ -15,52 +15,53 @@
 @foreach ($Store as $data) 
 
 
-    <section class="page-section cta">
+    <section class="page-section cta-inner">
       <div class="container">
         <div class="row">
           <div class="col-xl-9 mx-auto">
-            <div class="cta-inner text-center rounded">
+            <div class="cta-inner text-center text-white rounded">
               <h2 class="section-heading mb-5">
                 <span class="section-heading-upper">{!!$data->textkecilatas!!}</span>
                 <span class="section-heading-lower">{!!$data->textbesaratas!!}</span>
               </h2>
               <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
+                <b>
                 <li class="list-unstyled-item list-hours-item d-flex">
-                  Senin
+                  Monday
                   <span class="ml-auto">{!!$data->Senin!!}</span>
                 </li>
                 <li class="list-unstyled-item list-hours-item d-flex">
-                  Selasa
+                  Tuesday
                   <span class="ml-auto">{!!$data->Selasa!!}</span>
                 </li>
                 <li class="list-unstyled-item list-hours-item d-flex">
-                  Rabu
+                  Wednesday
                   <span class="ml-auto">{!!$data->Rabu!!}</span>
                 </li>
                 <li class="list-unstyled-item list-hours-item d-flex">
-                  Kamis
+                  Thursday
                   <span class="ml-auto">{!!$data->Kamis!!}</span>
                 </li>
-                <li class="list-unstyled-item list-hours-item d-flex">
-                  Jum'at
-                  <span class="ml-auto">{!!$data->Jumat!!}</span>
+                <li class="list-unstyled-item list-hours-item d-flex text-primary">
+                  Friday
+                  <span class="ml-auto text-primary">{!!$data->Jumat!!}</span>
                 </li>
                 <li class="list-unstyled-item list-hours-item d-flex">
-                  Sabtu
+                  Saturday
                   <span class="ml-auto">{!!$data->Sabtu!!}</span>
                 </li>
                 <li class="list-unstyled-item list-hours-item d-flex">
-                  Minggu
+                  Sunday
                   <span class="ml-auto">{!!$data->Minggu!!}</span>
                 </li>
+              </b>
               </ul>
               <p class="address mb-5">
                 <p class="mb-0">
                 
-                  <b>Untuk Menghubungi:</b>
+                  <b>To Contact:</b>
                 <br>
-                <br>
-                WhatsApp/SMS/Telp : {!!$data1->notlp!!}
+                WhatsApp/Message/Call : {!!$data1->notlp!!}
                 <br>
                 Line : {!!$data1->line!!}
                 <br>
@@ -69,7 +70,7 @@
               <br>
               <br>
 
-              <b>Atau Datang Ke Offline Store Kami Di</b>
+              <b>Or directly visit our Store :</b>
               <br>
               
               <p class="address mb-5">

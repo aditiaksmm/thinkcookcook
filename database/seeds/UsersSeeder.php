@@ -20,7 +20,7 @@ class UsersSeeder extends Seeder
     	$adminRole->save();
 // Membuat Akun admin
     	$admin = new User();
-    	$admin->name = 'Admin PansCompany';
+    	$admin->name = 'Admin thinkcookcook';
     	$admin->email = 'admin@gmail.com';
     	$admin->password = bcrypt('rahasia');
     	$admin->save();

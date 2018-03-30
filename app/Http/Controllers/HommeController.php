@@ -34,7 +34,7 @@ public function index(Request $request, Builder $htmlBuilder)
                 'model'=> $Home,
                 'form_url'=> route('Home.destroy', $Home->id),
                 'edit_url'=> route('Home.edit', $Home->id),
-                'confirm_message' => 'Yakin mau menghapus  ?'
+                'confirm_message' => 'Yakin mau menghapus ?'
                 ]);
         })->make(true);
     }
@@ -127,7 +127,7 @@ public function index(Request $request, Builder $htmlBuilder)
         }
         Session::flash("flash_notification", [
             "level"=>"success",
-            "message"=>"Berhasil Menyimpan Data"
+            "message"=>"Data Berhasil Disimpan"
             ]);
         return redirect()->back();
     }

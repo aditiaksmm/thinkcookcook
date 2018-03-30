@@ -27,7 +27,7 @@ public function index(Request $request, Builder $htmlBuilder)
     $Store = Store::select(['id','textkecilatas','textbesaratas','Senin','Selasa','Rabu','Kamis','Jumat','Sabtu','Minggu','cover','textkecilbold','textbesar','textkecil']);
         return Datatables::of($Store)
         ->addColumn('cover', function($Store){
-            return '<img src="/img/img1/'.$Store->cover. '" height="100px" width="200px">';
+            return '<img src="/img/img1/'.$Store->cover. '" height="50px" width="100px">';
         })
         ->addColumn('action', function($Store){
             return view('datatable._action2', [
@@ -133,7 +133,7 @@ public function index(Request $request, Builder $htmlBuilder)
         }
         Session::flash("flash_notification", [
             "level"=>"success",
-            "message"=>"Berhasil Menyimpan Data"
+            "message"=>"Data Berhasil Disimpan"
             ]);
         return redirect()->back();
     }

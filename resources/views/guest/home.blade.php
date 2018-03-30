@@ -1,13 +1,13 @@
   <h1 class="site-heading text-center text-white d-none d-lg-block">
       <span class="site-heading-upper text-primary mb-3"></span>
-      <span class="site-heading-lower">Beranda</span>
+      <span class="site-heading-lower">Home</span>
     </h1>
 
 <link rel="shortcut icon" href="{{asset('icon.png')}}">
 @extends('layouts.user')
 @section('content')
 @foreach ($Lainnya as $data) 
-<body style="background:linear-gradient(rgba(47,23,15,.65),rgba(47,23,15,.65)),url(../img/img1/{{$data->cover}});
+<body style="background:linear-gradient(rgba(19,14,12,0.32),rgba(19,14,12,0.32)),url(../img/img1/{{$data->cover}});
               background-repeat: no-repeat;
               background-size: cover; 
               background-attachment: fixed;">
@@ -25,13 +25,13 @@
         <div class="intro">
           <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="/img/img1/{{$data->cover}}" alt="">
           <div class="intro-text left-0 text-center bg-faded p-5 rounded">
-            <h2 class="section-heading mb-4">
+            <h2 class="section mb-4">
               <span class="section-heading-upper">{!!$data->textkecilboldbd!!}</span>
               <span class="section-heading-lower">{!!$data->textbesarbd!!}</span>
             </h2>
             <p class="mb-3">{!!$data->textkecilbd!!}</p>
-            <div class="intro-button mx-auto">
-              <a class="btn btn-primary btn-xl">Visit Us Today!</a>
+            <!-- <div class="intro-button mx-auto"> -->
+              <a class="btn btn-primary btn-xl" href="/store">Visit Us!</a>
             </div>
           </div>
         </div>

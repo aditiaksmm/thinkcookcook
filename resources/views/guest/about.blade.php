@@ -1,6 +1,6 @@
 <h1 class="site-heading text-center text-white d-none d-lg-block">
       <span class="site-heading-upper text-primary mb-3"></span>
-      <span class="site-heading-lower">Profil</span>
+      <span class="site-heading-lower">Profile</span>
     </h1>
 
     
@@ -9,7 +9,7 @@
 @extends('layouts.user')
 @section('content')
 @foreach ($Lainnya as $data) 
-<body style="background:linear-gradient(rgba(47,23,15,.65),rgba(47,23,15,.65)),url(../img/img1/{{$data->cover}});
+<body style="background:linear-gradient(rgba(19,14,12,0.32),rgba(19,14,12,0.32)),url(../img/img1/{{$data->cover}});
               background-repeat: no-repeat;
               background-size: cover; 
               background-attachment: fixed;">
@@ -17,14 +17,12 @@
 
 
 
-    <section class="page-section about-heading">
+    <section class="page-section clearfix">
       <div class="container">
-        <center><img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="/img/img1/{{$data->cover}}" alt=""></center>
-        <div class="about-heading-content">
-          <div class="row">
-            <div class="col-xl-9 col-lg-10 mx-auto">
-              <div class="bg-faded rounded p-5">
-                <h2 class="section-heading mb-4">
+        <div class="intro">
+          <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="/img/img1/{{$data->cover}}" alt="">
+          <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+            <h2 class="section mb-4">
                   <span class="section-heading-upper">{!!$data->textkecilbold!!}</span>
                   <span class="section-heading-lower">{!!$data->textbesar!!}</span>
                 </h2>
@@ -32,8 +30,7 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
+       
 
     </section>
 @endforeach

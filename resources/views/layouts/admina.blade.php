@@ -47,7 +47,7 @@
 
   <header class="main-header">
     <!-- Logo -->
-    <a href="index2.html" class="logo">
+    <a href="/admin/Product" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>T</b>CC</span>
       <!-- logo for regular state and mobile devices -->
@@ -170,7 +170,6 @@
 
     <div class="pull-right hidden-xs">
 <br>
-      <b>Version</b> 1.0
 
     <strong>Copyright &copy; 2018 Thinkcookcook</a>.</strong> All rights
     reserved.

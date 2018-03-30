@@ -7,27 +7,29 @@
 
 <h1 class="site-heading text-center text-white d-none d-lg-block">
       <span class="site-heading-upper text-primary mb-3"></span>
-      <span class="site-heading-lower">Produk</span>
+      <span class="site-heading-lower">Products</span>
     </h1>
+
+<link rel="shortcut icon" href="{{asset('icon.png')}}">
 @extends('layouts.user')
 @section('content')
 @foreach ($Lainnya as $data1) 
 
       <br>
 
-          <nav class="navbar navbar-expand-lg navbar-dark py-lg-2" id="mainNav">
+          <nav class="navbar navbar-expand-lg navbar-dark py-lg-2" id="">
       <div class="container">
        
        
        
           <ul class="navbar-nav mx-auto">
-           <li class="nav-item px-lg-1">
-              <a class="nav-link text-uppercase text-expanded" href="/products"><h4>Semua Produk</h4></a>
+           <li class="nav-tabs px-lg-1">
+              <a class="nav-link text-uppercase text-expanded text-white" href="/products"><h5>All Product</h5></a>
             </li>
             
            @foreach ($kategori as $data2)
-            <li class="nav-item px-lg-1">
-              <a class="nav-link text-uppercase text-expanded" href="{{route('showperkategori', $data2->id)}}"><h4>{!!$data2->nama_kategori!!}</h4></a>
+            <li class="nav-tabs px-lg-1">
+              <a class="nav-link text-uppercase text-expanded text-white" href="{{route('showperkategori', $data2->id)}}"><h5>{!!$data2->nama_kategori!!}</h5></a>
             </li>
            @endforeach
           
@@ -36,7 +38,7 @@
       </div>
     </nav>
 
-<body style="background:linear-gradient(rgba(47,23,15,.65),rgba(47,23,15,.65)),url(../img/img1/{{$data1->cover}});
+<body style="background:linear-gradient(rgba(19,14,12,0.32),rgba(19,14,12,0.32)),url(../img/img1/{{$data1->cover}});
               background-repeat: no-repeat;
               background-size: cover; 
               background-attachment: fixed;">
@@ -59,17 +61,17 @@
           <div class="product-item-description d-flex mr-auto">
             <div class="bg-faded p-5 rounded">
 
-              <p class="mb-0"><center><h2><b><u>Detail</u></b></h2></center>  <br>
+              <p class="mb-0"><center><h2><b><u>Details</u></b></h2></center>  <br>
 
                 <table>
                   <tr>
-                    <td>Bahan</td><td>&nbsp:&nbsp</td><td>{!!$data->bahan!!}</td>
+                    <td>Material</td><td>&nbsp:&nbsp</td><td>{!!$data->bahan!!}</td>
                   </tr>
                   <tr>
-                    <td>Warna</td><td>&nbsp:&nbsp</td><td>{!!$data->warna!!}</td>
+                    <td>Color</td><td>&nbsp:&nbsp</td><td>{!!$data->warna!!}</td>
                   </tr>
                   <tr>
-                    <td>Ukuran</td><td>&nbsp:&nbsp</td><td>{!!$data->ukuran!!}</td>
+                    <td>Size</td><td>&nbsp:&nbsp</td><td>{!!$data->ukuran!!}</td>
                   </tr>
                 </table>
               </p>

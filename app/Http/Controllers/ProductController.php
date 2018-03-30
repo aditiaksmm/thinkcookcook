@@ -91,7 +91,7 @@ public function index(Request $request, Builder $htmlBuilder)
         }
         Session::flash("flash_notification", [
             "level"=>"success",
-            "message"=>"Berhasil Menyimpan $Product->nama_product"
+            "message"=>"$Product->nama_product Berhasil Disimpan"
             ]);
         return redirect()->route('Product.index');
     }
@@ -164,7 +164,7 @@ public function index(Request $request, Builder $htmlBuilder)
         }
         Session::flash("flash_notification", [
             "level"=>"success",
-            "message"=>"Berhasil Menyimpan Data"
+            "message"=>"Data Berhasil Disimpan"
             ]);
         return redirect()->route('Product.index');
     }
