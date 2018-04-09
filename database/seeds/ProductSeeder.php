@@ -202,7 +202,7 @@ $kategori = kategori::create([
                             <head>
                             </head>
                             <body>
-                            <p>WE LOVE T-Shirt</p>
+                            <p>When you walk into our shop to start your day, we are dedicated to providing you with friendly service, a welcoming atmosphere, and above all else, excellent products made with the highest quality ingredients. If you are not satisfied, please let us know and we will do whatever we can to make things right!</p>
                             </body>
                             </html>'
             ]);
@@ -210,7 +210,7 @@ $kategori = kategori::create([
 
 
                 $About = About::create([
-            'cover'=>'3cbc478ce406d405c1da3c5e7d7d3813.jpg',
+            'cover'=>'584cfc16f06843ed6b2bff93e4f62fec.jpg',
             'textkecilbold' => 'About Our Distro',
             'textbesar' => 'Thinkcookcook',
             'textkecil' => '<!DOCTYPE html>

@@ -19,8 +19,8 @@
 
     <section class="page-section clearfix">
       <div class="container">
-        <div class="intro">
-          <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="/img/img1/{{$data->cover}}" alt="">
+        <div class="">
+          <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="/img/img1/{{$data->cover}}" width="1920px" height="973px" alt="">
           <div class="intro-text left-0 text-center bg-faded p-5 rounded">
             <h2 class="section mb-4">
                   <span class="section-heading-upper">{!!$data->textkecilbold!!}</span>

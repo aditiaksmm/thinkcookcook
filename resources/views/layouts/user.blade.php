@@ -15,21 +15,33 @@
 
     <!-- Custom fonts for this template -->
 
-<link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
-
-      <link rel="stylesheet" href="{{asset ('p/css/style.css') }}">
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="{{asset ('p/css/style.css') }}">
 
     <!-- Custom styles for this template -->
     <link href="{{asset ('user/css/business-casual.min.css') }}" rel="stylesheet">
 
   </head>
 
+ <!--  <form action="{{ url()->current() }}">
+    <div class="col-md-2">
+        <input type="text" name="/model" class="form-control" placeholder="Search categories">
+    </div>
+    <div class="col-md-1">
+        <button type="submit" class="btn btn-primary">
+            Search
+        </button>
+    </div>
+</form> -->
+
  
 
     <!-- Navigation -->
       <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="">
         <div class="container">
-          <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
+          <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Thinkcookcook</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
